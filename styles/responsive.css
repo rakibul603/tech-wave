@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {  
+    
+.display-none { 
+    display: block;
+}
+
+.sm-display-none {
+    display: none;
+}
+
+.nav-section {
+    padding:  20px;
+}
+
+}
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .nav-section {
+    padding:  20px;
+}
+}
