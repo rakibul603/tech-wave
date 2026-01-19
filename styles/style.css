@@ -137,6 +137,9 @@ body {
 .banner-section {
     background-image: url("/assets/hero-bg.png");
     min-height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 10px 0px 0px 0px;
 }
 
 .banner-image {
@@ -146,21 +149,21 @@ body {
 
 .banner-image .cicle {
     position: relative;
-    left: 110px;
-    top: 100px;
+    left: 100px;
+    top: 90px;
 }
 
 .banner-image .microphone {
     z-index: 10;
     position: relative;
     top: 15px;
-    right: 130px;
+    right: 140px;
 }
 
 .banner-image .tultip {
     position: relative;
-    bottom: 250px;
-    left: 110px;
+    top: -230px;
+    left: 140px;
     z-index: 20;
     background-color: var(--green-color);
     width: 70px;
