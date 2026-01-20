@@ -217,27 +217,27 @@ body {
 
 .about-container hr {
 
-    border: 1px solid  #5c585837 ;
+    border: 1px solid #5c585837;
     margin: 50px 0px;
 }
 
 .about-content {
-   width: 800px;
-   margin: 0 auto;
-   text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.about-content h2{ 
+.about-content h2 {
     color: var(--text-color);
     font-size: 48px;
 }
 
-.about-content p{
+.about-content p {
     font-size: 16px;
     color: var(--paragraph-color);
 }
 
-.about-rating{
+.about-rating {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -253,4 +253,61 @@ body {
 .about-rating p {
     color: var(--paragraph-color);
     font-size: 16px;
+}
+
+
+/* choose-techwave section */
+
+.choose-techwave {
+    background-color: #230E3D;
+}
+
+.techwave-container {
+    padding: 100px 0px;
+
+}
+
+.techwave-container h2 {
+    font-size: 48px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.techwave-item-1 {
+    grid-area: techwave-item-1;
+}
+.techwave-item-2 {
+    grid-area: techwave-item-2;
+}
+.techwave-item-3 {
+    grid-area: techwave-item-3;
+}
+.techwave-item-4 {
+    grid-area: techwave-item-4;
+}
+.techwave-item-5 {
+    grid-area: techwave-item-5;
+}
+
+.techwave-content {
+    display: grid;
+    grid-template-areas:
+    "techwave-item-1 techwave-item-2 techwave-item-2"
+    "techwave-item-1 techwave-item-3 techwave-item-3"
+    "techwave-item-4 techwave-item-4 techwave-item-5"
+    ;
+}
+
+.techwave-item-1 {
+    background-color: #351165;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.techwave-content h3 {
+    color: var(--text-color);
+}
+
+.techwave-content p {
+    color: var(--paragraph-color);
 }
