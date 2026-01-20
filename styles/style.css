@@ -205,3 +205,52 @@ body {
     gap: 10px;
     margin-top: 20px;
 }
+
+
+/* about section  */
+
+.about-section {
+    background-color: var(--bg-color);
+    padding: 100px 0px;
+}
+
+
+.about-container hr {
+
+    border: 1px solid  #5c585837 ;
+    margin: 50px 0px;
+}
+
+.about-content {
+   width: 800px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.about-content h2{ 
+    color: var(--text-color);
+    font-size: 48px;
+}
+
+.about-content p{
+    font-size: 16px;
+    color: var(--paragraph-color);
+}
+
+.about-rating{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-rating h2 {
+    color: var(--green-color);
+    font-size: 48px;
+}
+
+.about-rating p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+}
